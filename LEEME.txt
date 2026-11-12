@@ -1,0 +1,26 @@
+YC&P Tax Consulting - Sitio web
+
+Abra index.html en el navegador (o con Live Server en Visual Studio Code).
+
+Estructura:
+  index.html        Página principal
+  css/styles.css    Estilos
+  js/script.js      Animaciones, perfiles del equipo y pantalla de carga
+  img/              Imágenes
+    hero.jpg        Foto del banner (portada)
+    reunion.jpg     Foto de fondo al pasar el cursor sobre los servicios
+    logo.png        Logotipo
+    gloria.jpg, carolin.jpg, cristal.jpg   Fotos del equipo
+
+El mapa de la sección "Dónde encontrarnos" necesita conexión a internet.
+
+FORMULARIO DE CONTACTO ("Hablemos de su negocio")
+  1. Abra js/script.js y busque:  var CORREO_DESTINO='';
+     Escriba entre las comillas el correo que recibirá las consultas, por ejemplo:
+     var CORREO_DESTINO='correo@sudominio.com';
+     (ese mismo correo se muestra automáticamente en la sección de contacto).
+  2. Abra la página con Live Server (o publíquela en internet) y envíe una consulta de prueba.
+     La primera vez, el servicio FormSubmit envía un correo de activación a esa dirección:
+     abra el mensaje y pulse "Activate Form". Desde entonces las consultas llegan normalmente.
+  3. Revise también la carpeta de spam la primera vez.
+  El campo de correo exige un formato válido con @ (nombre@dominio.com).
