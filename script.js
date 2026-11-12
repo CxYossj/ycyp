@@ -120,7 +120,7 @@
   /* 4) Formulario de contacto: envía los datos por correo (servicio FormSubmit)
      ------------------------------------------------------------------
      >>> Escriba aquí el correo que recibirá las consultas <<<              */
-  var CORREO_DESTINO='luisyadil14@gmail.com';
+  var CORREO_DESTINO='NULL@GMAIL.';
   /* ------------------------------------------------------------------ */
   var f=document.getElementById('f'),ok=document.getElementById('ok'),bad=document.getElementById('bad');
   var mailShow=document.getElementById('mail-show');
